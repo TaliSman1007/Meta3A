@@ -96,15 +96,3 @@ Traceback (most recent call last):
   File "C:\Users\student\Desktop\META-master\NPC.py", line 449, in move
     if self.rect.colliderect(self.path[self.path_progress].rect) and self.path[self.path_progress] != self.path[-1]:
 TypeError: 'NoneType' object is not subscriptable
-WARNING:root:META has crashed. Please send this report to MaxwellSalmon, so he can fix it.
-ERROR:root:Error message: 
-Traceback (most recent call last):
-  File "C:\Users\student\Desktop\META-master\RUN.py", line 444, in main_loop
-    render_screen(gameCanvas.canvas)
-  File "C:\Users\student\Desktop\META-master\RUN.py", line 292, in render_screen
-    EFFECTS.render(gameCanvas.canvas)
-  File "C:\Users\student\Desktop\META-master\EFFECTS.py", line 52, in render
-    show_title(canvas)
-  File "C:\Users\student\Desktop\META-master\EFFECTS.py", line 155, in show_title
-    title.update_string("%s.  LEVEL" % SETTINGS.current_level + 1)
-TypeError: can only concatenate str (not "int") to str
